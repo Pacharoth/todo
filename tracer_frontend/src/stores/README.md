@@ -1,0 +1,3 @@
+# check localstorage 
+# useLocalStorage
+# useIndexDB

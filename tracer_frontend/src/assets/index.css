@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        /* @apply w-10 bg-gray-500/40 rounded-full; */
+    }
+      body{
+        @apply overflow-y-auto;
+      }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        @apply w-10 bg-gray-500/40 hover:bg-gray-600/40 rounded-full;
+    }
+}

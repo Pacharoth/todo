@@ -1,0 +1,1 @@
+export type IconType = { strokeWidth?: number, className?: string }
